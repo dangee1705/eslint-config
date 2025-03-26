@@ -1,0 +1,29 @@
+{
+	"name": "@dangee1705/eslint-config",
+	"version": "0.1.0",
+	"description": "Dan Gee's ESLint Config",
+	"keywords": [
+		"eslint",
+		"eslintconfig",
+		"eslint-config",
+		"dan",
+		"gee",
+		"dangee1705"
+	],
+	"type": "module",
+	"main": "eslint.config.js",
+	"peerDependencies": {
+		"eslint": ">= 9"
+	},
+	"homepage": "https://github.com/dangee1705/eslint-config",
+	"license": "MIT",
+	"author": "Dan Gee <dangee1705@gmail.com> (https://dangee1705.com)",
+	"devDependencies": {
+		"@stylistic/eslint-plugin": "^4.2.0",
+		"@typescript-eslint/eslint-plugin": "^8.28.0",
+		"@typescript-eslint/parser": "^8.28.0",
+		"eslint": "^9.23.0",
+		"eslint-plugin-react": "^7.37.4",
+		"eslint-plugin-react-hooks": "^5.2.0"
+	}
+}
