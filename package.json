@@ -16,6 +16,9 @@
 		"eslint": ">= 9"
 	},
 	"homepage": "https://github.com/dangee1705/eslint-config",
+	"repository": {
+		"url": "https://github.com/dangee1705/eslint-config"
+	},
 	"license": "MIT",
 	"author": "Dan Gee <dangee1705@gmail.com> (https://dangee1705.com)",
 	"devDependencies": {
