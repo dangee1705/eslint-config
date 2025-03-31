@@ -1,7 +1,8 @@
-import parser from '@typescript-eslint/parser';
-import reactHooks from 'eslint-plugin-react-hooks';
 import stylistic from '@stylistic/eslint-plugin';
 import typescriptEslint from '@typescript-eslint/eslint-plugin';
+import parser from '@typescript-eslint/parser';
+import reactHooks from 'eslint-plugin-react-hooks';
+import simpleImportSort from 'eslint-plugin-simple-import-sort';
 
 /** @type {import('eslint').Linter.Config[]} */
 export default [
@@ -213,7 +214,7 @@ export default [
 			'require-await': ['warn'],
 			'require-unicode-regexp': ['warn'],
 			'require-yield': ['warn'],
-			'sort-imports': ['warn'],
+			'sort-imports': ['off'],
 			'sort-keys': ['off'],
 			'sort-vars': ['off'],
 			'strict': ['warn'],
@@ -335,7 +336,7 @@ export default [
 			'@stylistic/type-named-tuple-spacing': ['warn'],
 			'@stylistic/wrap-iife': ['warn', 'inside'],
 			'@stylistic/wrap-regex': ['off'],
-			'@stylistic/yield-star-spacing': ['warn', 'before']
+			'@stylistic/yield-star-spacing': ['warn', 'before'],
 
 			// '@typescript-eslint/adjacent-overload-signatures': ['warn'],
 			// '@typescript-eslint/array-type': ['warn'],
@@ -467,11 +468,14 @@ export default [
 			// '@typescript-eslint/unbound-method': ['warn'],
 			// '@typescript-eslint/unified-signatures': ['warn'],
 			// '@typescript-eslint/use-unknown-in-catch-callback-variable': ['warn']
+
+			'simple-import-sort/imports': ['warn']
 		},
 		plugins: {
 			'react-hooks': reactHooks,
 			'@stylistic': stylistic,
-			'@typescript-eslint': typescriptEslint
+			'@typescript-eslint': typescriptEslint,
+			'simple-import-sort': simpleImportSort
 		}
 	}
 ];
