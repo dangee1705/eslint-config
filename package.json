@@ -1,6 +1,6 @@
 {
 	"name": "@dangee1705/eslint-config",
-	"version": "0.2.1",
+	"version": "0.3.0",
 	"description": "Dan Gee's ESLint Config",
 	"keywords": [
 		"eslint",
@@ -24,7 +24,8 @@
 		"@typescript-eslint/parser": "^8.29.0",
 		"eslint-plugin-react": "^7.37.4",
 		"eslint-plugin-react-hooks": "^5.2.0",
-		"eslint-plugin-simple-import-sort": "^12.1.1"
+		"eslint-plugin-simple-import-sort": "^12.1.1",
+		"globals": "^16.0.0"
 	},
 	"peerDependencies": {
 		"eslint": "^9.23.0"
