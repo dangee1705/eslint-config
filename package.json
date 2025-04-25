@@ -1,6 +1,6 @@
 {
 	"name": "@dangee1705/eslint-config",
-	"version": "0.3.0",
+	"version": "0.3.1",
 	"description": "Dan Gee's ESLint Config",
 	"keywords": [
 		"eslint",
@@ -20,9 +20,9 @@
 	"author": "Dan Gee <dangee1705@gmail.com> (https://dangee1705.com)",
 	"dependencies": {
 		"@stylistic/eslint-plugin": "^4.2.0",
-		"@typescript-eslint/eslint-plugin": "^8.29.0",
-		"@typescript-eslint/parser": "^8.29.0",
-		"eslint-plugin-react": "^7.37.4",
+		"@typescript-eslint/eslint-plugin": "^8.31.0",
+		"@typescript-eslint/parser": "^8.31.0",
+		"eslint-plugin-react": "^7.37.5",
 		"eslint-plugin-react-hooks": "^5.2.0",
 		"eslint-plugin-simple-import-sort": "^12.1.1",
 		"globals": "^16.0.0"

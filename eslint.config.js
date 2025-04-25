@@ -247,7 +247,7 @@ export default [
 			'@stylistic/eol-last': ['warn', 'always'],
 			'@stylistic/function-call-argument-newline': ['warn', 'consistent'],
 			'@stylistic/function-call-spacing': ['warn', 'never'],
-			'@stylistic/function-paren-newline': ['warn', 'multiline'],
+			'@stylistic/function-paren-newline': ['warn', 'multiline-arguments'],
 			'@stylistic/generator-star-spacing': ['warn', {'before': true, 'after': false}],
 			'@stylistic/implicit-arrow-linebreak': ['warn', 'beside'],
 			'@stylistic/indent': ['warn', 'tab', {'SwitchCase': 1}],
@@ -310,7 +310,8 @@ export default [
 			'@stylistic/no-whitespace-before-property': ['warn'],
 			'@stylistic/nonblock-statement-body-position': ['warn', 'any'],
 			'@stylistic/object-curly-newline': [
-				'warn', {
+				'warn',
+				{
 					'multiline': true,
 					'consistent': true
 				}
