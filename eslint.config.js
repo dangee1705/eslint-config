@@ -298,7 +298,7 @@ export default [
 			'@stylistic/new-parens': ['warn', 'always'],
 			'@stylistic/newline-per-chained-call': ['warn', {'ignoreChainWithDepth': 3}],
 			'@stylistic/no-confusing-arrow': ['warn', {'allowParens': true}],
-			'@stylistic/no-extra-parens': ['warn', 'all', {'nestedBinaryExpressions': false, 'ignoreJSX': 'multi-line', 'enforceForArrowConditionals': false}],
+			'@stylistic/no-extra-parens': ['warn', 'all', {'nestedBinaryExpressions': false, 'ignoreJSX': 'multi-line', 'enforceForArrowConditionals': false, 'allowNodesInSpreadElement': {"ConditionalExpression": true, "LogicalExpression": true, "AwaitExpression": true}}],
 			'@stylistic/no-extra-semi': ['warn'],
 			'@stylistic/no-floating-decimal': ['warn'],
 			'@stylistic/no-mixed-operators': ['warn', {'allowSamePrecedence': true}],
@@ -309,13 +309,7 @@ export default [
 			'@stylistic/no-trailing-spaces': ['warn'],
 			'@stylistic/no-whitespace-before-property': ['warn'],
 			'@stylistic/nonblock-statement-body-position': ['warn', 'any'],
-			'@stylistic/object-curly-newline': [
-				'warn',
-				{
-					'multiline': true,
-					'consistent': true
-				}
-			],
+			'@stylistic/object-curly-newline': ['warn', {'multiline': true, 'consistent': true}],
 			'@stylistic/object-curly-spacing': ['warn', 'never'],
 			'@stylistic/object-property-newline': ['off'],
 			'@stylistic/one-var-declaration-per-line': ['warn', 'initializations'],
@@ -475,7 +469,9 @@ export default [
 			// '@typescript-eslint/unified-signatures': ['warn'],
 			// '@typescript-eslint/use-unknown-in-catch-callback-variable': ['warn']
 
-			'simple-import-sort/imports': ['warn']
+			'simple-import-sort/imports': ['warn', {
+				'groups': [['.*']]
+			}]
 		},
 		plugins: {
 			'react-hooks': reactHooks,
