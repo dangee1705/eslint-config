@@ -1,6 +1,6 @@
 {
 	"name": "@dangee1705/eslint-config",
-	"version": "0.7.0",
+	"version": "0.8.0",
 	"description": "Dan Gee's ESLint Config",
 	"keywords": [
 		"eslint",
@@ -19,13 +19,13 @@
 	"license": "MIT",
 	"author": "Dan Gee <dangee1705@gmail.com> (https://dangee1705.com)",
 	"dependencies": {
-		"@stylistic/eslint-plugin": "^5.7.1",
-		"@typescript-eslint/eslint-plugin": "^8.54.0",
-		"@typescript-eslint/parser": "^8.54.0",
+		"@stylistic/eslint-plugin": "^5.10.0",
+		"@typescript-eslint/eslint-plugin": "^8.56.1",
+		"@typescript-eslint/parser": "^8.56.1",
 		"eslint-plugin-react": "^7.37.5",
 		"eslint-plugin-react-hooks": "^7.0.1",
 		"eslint-plugin-simple-import-sort": "^12.1.1",
-		"globals": "^17.3.0"
+		"globals": "^17.4.0"
 	},
 	"peerDependencies": {
 		"eslint": "^9.23.0"

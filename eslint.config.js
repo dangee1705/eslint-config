@@ -226,7 +226,7 @@ export default [
 			'@stylistic/array-bracket-newline': ['warn', 'consistent'],
 			'@stylistic/array-bracket-spacing': ['warn', 'never'],
 			'@stylistic/array-element-newline': ['warn', {'consistent': true, 'multiline': true}],
-			'@stylistic/arrow-parens': ['warn', 'as-needed'],
+			'@stylistic/arrow-parens': ['off'],
 			'@stylistic/arrow-spacing': ['warn'],
 			'@stylistic/block-spacing': ['warn', 'never'],
 			'@stylistic/brace-style': ['warn', '1tbs'],
