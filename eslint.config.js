@@ -4,6 +4,7 @@ import typescriptEslint from '@typescript-eslint/eslint-plugin';
 import parser from '@typescript-eslint/parser';
 import simpleImportSort from 'eslint-plugin-simple-import-sort';
 import globals from 'globals';
+import {cwd} from 'node:process';
 
 /** @type {import('eslint').Linter.Config[]} */
 export default [
@@ -330,7 +331,7 @@ export default [
 				projectService: {
 					allowDefaultProject: ['*.js', '*.ts']
 				},
-				tsconfigRootDir: import.meta.dirname
+				tsconfigRootDir: cwd()
 			}
 		},
 		rules: {

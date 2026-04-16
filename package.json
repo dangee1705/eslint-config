@@ -1,6 +1,6 @@
 {
 	"name": "@dangee1705/eslint-config",
-	"version": "0.10.0",
+	"version": "0.10.1",
 	"description": "Dan Gee's ESLint Config",
 	"keywords": [
 		"eslint",
